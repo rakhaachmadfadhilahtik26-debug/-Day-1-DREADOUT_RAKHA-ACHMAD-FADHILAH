@@ -24,6 +24,14 @@ Workshop ini dibawakan oleh **Nugi Farhan** (Senior Product Designer) dengan top
 * **Konfigurasi Lingkungan (Setup):** Panduan instalasi dan konfigurasi Git, VS Code, serta pembuatan dan penambahan kunci SSH (*SSH Key*) untuk autentikasi yang aman ke GitHub
 * **Studi Kasus Praktik:** Membangun aplikasi web sederhana berupa **Student Task Planner** dengan bantuan platform AI dan menerapkannya ke dalam *version control* Git dan GitHub
 
+* ### 1.1 Poin-Poin Penting & Pengetahuan Baru
+- **Prompt Engineering:** Pentingnya memberikan *context* dan *role* yang tepat agar AI menghasilkan output yang sesuai kebutuhan.
+- **Git vs GitHub:** Memahami bahwa Git adalah sistem *version control* lokal, sedangkan GitHub adalah platform berbasis cloud untuk kolaborasi.
+- **SSH Key:** Penggunaan SSH Key jauh lebih aman dan efisien untuk autentikasi ke GitHub dibandingkan password biasa.
+
+### 1.2 Pendapat Pribadi tentang Day 1 Proyek Workshop
+Sesi Day 1 Proyek Workshop ini sangat interaktif dan memberikan wawasan praktis yang sangat relevan. Kombinasi antara pemanfaatan AI untuk mempercepat pembuatan project (*Student Task Planner*) dan penggunaan Git/GitHub untuk manajemen kode memberikan pemahaman dasar yang kuat untuk kolaborasi pengembangan perangkat lunak ke depannya.
+
 ### 2. Catatan dan Rangkuman Materi
 * **Prompt Engineering:**
   * *Prompt* adalah instruksi atau masukan yang diberikan kepada model AI untuk mendapatkan hasil tertentu
@@ -37,13 +45,14 @@ Workshop ini dibawakan oleh **Nugi Farhan** (Senior Product Designer) dengan top
     2. *Staging Area (Index)*: Area penyimpanan sementara untuk mencatat perubahan yang akan dimasukkan ke *commit* berikutnya
     3. *.git Directory (Repository)*: Tempat penyimpanan metadata dan *database* objek proyek
 * **Perintah Penting Git:**
-  * `git init`: Memulai *repository* baru[cite: 44].
-  * `git add .` / `git add -A`: Memindahkan perubahan file ke *staging area*[cite: 44, 49].
-  * `git commit -m "message"`: Menyimpan perubahan ke *repository* lokal dengan pesan deskriptif[cite: 44].
-  * `git remote add <name> <url>` & `git push origin main`: Menghubungkan dan mengunggah cabang kode ke *remote repository* GitHub[cite: 45].
-  * `git pull origin main`: Mengambil dan menggabungkan pembaruan dari *remote* ke cabang lokal[cite: 45].
+  * `git init`: Memulai *repository* baru.
+  * `git add .` / `git add -A`: Memindahkan perubahan file ke *staging area*.
+  * `git commit -m "message"`: Menyimpan perubahan ke *repository* lokal dengan pesan deskriptif.
+  * `git remote add <name> <url>` & `git push origin main`: Menghubungkan dan mengunggah cabang kode ke *remote repository* GitHub.
+  * `git pull origin main`: Mengambil dan menggabungkan pembaruan dari *remote* ke cabang lokal.
 
 ### 3. Poin-Poin Penting dan Pengetahuan Baru
-* Pentingnya memberikan konteks yang kaya (*Context is key*) pada AI agar hasil keluaran jauh lebih spesifik, akurat, dan sesuai kebutuhan pengguna[cite: 35].
-* Penerapan keamanan menggunakan kunci kriptografi **Ed25519** untuk koneksi SSH yang aman antara perangkat lokal dan GitHub[cite: 50, 52].
-* Pemahaman langkah-langkah praktis mulai dari merancang aplikasi web *Student Task Planner* menggunakan bantuan AI, inisialisasi Git, hingga melakukan *commit* dan *push* secara berkala ke GitHub[cite: 54, 55].
+* Pentingnya memberikan konteks yang kaya (*Context is key*) pada AI agar hasil keluaran jauh lebih spesifik, akurat, dan sesuai kebutuhan pengguna.
+* Penerapan keamanan menggunakan kunci kriptografi **Ed25519** untuk koneksi SSH yang aman antara perangkat lokal dan GitHub.
+* Pemahaman langkah-langkah praktis mulai dari merancang aplikasi web *Student Task Planner* menggunakan bantuan AI, inisialisasi Git, hingga melakukan *commit* dan *push* secara berkala ke GitHub.
+
